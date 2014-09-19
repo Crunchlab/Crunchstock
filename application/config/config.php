@@ -133,7 +133,7 @@ $config['enable_hooks'] = FALSE;
 | http://codeigniter.com/user_guide/general/creating_libraries.html
 |
 */
-$config['subclass_prefix'] = 'MY_';
+$config['subclass_prefix'] = 'CRUNCH_';
 
 /*
 |--------------------------------------------------------------------------
@@ -319,7 +319,7 @@ $config['cache_path'] = '';
 | http://codeigniter.com/user_guide/libraries/sessions.html
 |
 */
-$config['encryption_key'] = '';
+$config['encryption_key'] = 'W;hriJFyi-gN<Zakjdf3mcdHY(U>V`L%IaJv[^b(:dhr';
 
 /*
 |--------------------------------------------------------------------------
@@ -344,8 +344,8 @@ $config['encryption_key'] = '';
 */
 $config['sess_driver']			= 'cookie';
 $config['sess_valid_drivers']	= array();
-$config['sess_cookie_name']		= 'ci_session';
-$config['sess_expiration']		= 7200;
+$config['sess_cookie_name']		= 'crunch';
+$config['sess_expiration']		= 108000;
 $config['sess_expire_on_close']	= FALSE;
 $config['sess_encrypt_cookie']	= FALSE;
 $config['sess_use_database']	= FALSE;
@@ -463,7 +463,7 @@ $config['minify_output'] = FALSE;
 | helper' page of the user guide for information regarding date handling.
 |
 */
-$config['time_reference'] = 'local';
+$config['time_reference'] = 'UP1';
 
 
 /*
